@@ -1,18 +1,18 @@
 version: '3.8'
 services:
-  mypythonlife-app:
+  pythonlife:
     images: maheshkumar22/mypythonlife-app:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
-  mymovies-app:
+  moives:
     image: maheshkumar22/mymovies-app:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
-  myphonepay-app:
+  phoenepay:
     image: maheshkumar22/myphonepay-app:latest
     ports:
       - "83:80"
