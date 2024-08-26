@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   pythonlife:
-    images: maheshkumar22/mypythonlife-app:latest
+    image: maheshkumar22/mypythonlife-app:latest
     ports:
       - "81:80"
     deploy:
